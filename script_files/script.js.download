@@ -1,0 +1,10 @@
+let username;
+let email;
+let password;
+
+document.getElementById("button").onclick = function(){
+    username = document.getElementById("name").value;
+    email = document.getElementById("mail").value;
+    password = document.getElementById("pass").value;
+    window.location("biltongsite.html");
+}
